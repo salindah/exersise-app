@@ -19,6 +19,13 @@ connection.once('open', () => {
     console.log('Database connection established.');
 } );
 
+// setup routes
+const excercisesRouter = require('./routes/excercises');
+const usersRouter = require('./routes/users');
+
+app.use('/excercises', excercisesRouter);
+app.use('/users', usersRouter);
+
 app.listen( port, () => {
     console.log(`Server is running on port : ${port}`);
 });

@@ -1,0 +1,38 @@
+0 info it worked if it ends with ok
+1 verbose cli [
+1 verbose cli   '/Users/shettiarachchi/.nvm/versions/node/v13.7.0/bin/node',
+1 verbose cli   '/Users/shettiarachchi/.nvm/versions/node/v13.7.0/bin/npm',
+1 verbose cli   'start'
+1 verbose cli ]
+2 info using npm@6.13.6
+3 info using node@v13.7.0
+4 verbose run-script [ 'prestart', 'start', 'poststart' ]
+5 info lifecycle exersise-tracker@0.1.0~prestart: exersise-tracker@0.1.0
+6 info lifecycle exersise-tracker@0.1.0~start: exersise-tracker@0.1.0
+7 verbose lifecycle exersise-tracker@0.1.0~start: unsafe-perm in lifecycle true
+8 verbose lifecycle exersise-tracker@0.1.0~start: PATH: /Users/shettiarachchi/.nvm/versions/node/v13.7.0/lib/node_modules/npm/node_modules/npm-lifecycle/node-gyp-bin:/Users/shettiarachchi/workspace/exersise-app/exersise-tracker/node_modules/.bin:/Users/shettiarachchi/opt/anaconda3/bin:/Users/shettiarachchi/miniconda3/condabin:/Library/Frameworks/Python.framework/Versions/3.8/bin:/Users/shettiarachchi/.nvm/versions/node/v13.7.0/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Frameworks/Mono.framework/Versions/Current/Commands:/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/bin:/usr/local/apache-maven-3.6.2/bin
+9 verbose lifecycle exersise-tracker@0.1.0~start: CWD: /Users/shettiarachchi/workspace/exersise-app/exersise-tracker
+10 silly lifecycle exersise-tracker@0.1.0~start: Args: [ '-c', 'react-scripts start' ]
+11 silly lifecycle exersise-tracker@0.1.0~start: Returned: code: 1  signal: null
+12 info lifecycle exersise-tracker@0.1.0~start: Failed to exec start script
+13 verbose stack Error: exersise-tracker@0.1.0 start: `react-scripts start`
+13 verbose stack Exit status 1
+13 verbose stack     at EventEmitter.<anonymous> (/Users/shettiarachchi/.nvm/versions/node/v13.7.0/lib/node_modules/npm/node_modules/npm-lifecycle/index.js:332:16)
+13 verbose stack     at EventEmitter.emit (events.js:321:20)
+13 verbose stack     at ChildProcess.<anonymous> (/Users/shettiarachchi/.nvm/versions/node/v13.7.0/lib/node_modules/npm/node_modules/npm-lifecycle/lib/spawn.js:55:14)
+13 verbose stack     at ChildProcess.emit (events.js:321:20)
+13 verbose stack     at maybeClose (internal/child_process.js:1026:16)
+13 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:286:5)
+14 verbose pkgid exersise-tracker@0.1.0
+15 verbose cwd /Users/shettiarachchi/workspace/exersise-app/exersise-tracker
+16 verbose Darwin 18.7.0
+17 verbose argv "/Users/shettiarachchi/.nvm/versions/node/v13.7.0/bin/node" "/Users/shettiarachchi/.nvm/versions/node/v13.7.0/bin/npm" "start"
+18 verbose node v13.7.0
+19 verbose npm  v6.13.6
+20 error code ELIFECYCLE
+21 error errno 1
+22 error exersise-tracker@0.1.0 start: `react-scripts start`
+22 error Exit status 1
+23 error Failed at the exersise-tracker@0.1.0 start script.
+23 error This is probably not a problem with npm. There is likely additional logging output above.
+24 verbose exit [ 1, true ]
